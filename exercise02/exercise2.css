@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #780000;
+  font-size: 28px;
+}
+
+h2 {
+  color: #c1121f;
+  font-size: 24px;
+}
+
+h3 {
+  color: #e76f51;
+  font-size: 20px;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 16.5px;
+}

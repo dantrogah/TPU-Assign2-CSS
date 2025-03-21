@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3;
+}
+
+p {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.site-link:hover {
+  background-color: #217dbb;
+  font-weight: bold;
+  transform: scale(1.05);
+}
