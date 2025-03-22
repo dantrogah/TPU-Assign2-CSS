@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffa500;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: 10px;
+}
+
+p {
+  padding: 0 5%;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header Styles */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #191359;
+}
+
+header img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+header ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+header ul a {
+  font-size: 18px;
+  color: #191359;
+  font-weight: bold;
+  text-decoration: #fff;
+}
+
+header ul li a:hover {
+  color: #fff;
+}
+
+header,
+footer {
+  background-color: #ffa500;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Style */
+.gallery {
+  position: relative;
+  background-image: url(./images/recitation.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffa500;
+  opacity: 0.8;
+}
+
+/* .gallery::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+} */
+
+.gallery h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  text-shadow: 0 10px 40px rgab(0, 0, 0, 0.2);
+  letter-spacing: 0;
+}
+
+.gallery_link {
+  padding: 16px 24px;
+  color: #fff;
+  font-size: 16px;
+  background: linear-gradient(40deg, #fe0000, #ffa500);
+  border-radius: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery_link:hover {
+  transform: scale(1.2);
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Performance section style */
+.performances {
+  width: 100%;
+  margin: 0 auto;
+}
+.performace-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.performance-text p {
+  margin-left: -30px;
+}
+
+.performance-text {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.performace-container img {
+  width: 300px;
+  margin-right: 40px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.performance-text ul {
+  list-style-type: circle;
+  margin-left: 10px;
+}
+
+.performance-text ul li {
+  margin: 10px;
+}
+
+/* Performance Gallery Style */
+.children-performance-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.children-performances {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  transition: 0.3s ease-in;
+}
+
+.children-performances:hover {
+  transform: scale(1.2);
+}
+
+.children-performances p {
+  text-align: center;
+}
+/* Styling of Image Gallery page */
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+}
+
+.container img {
+  width: 350px;
+  height: auto;
+}
